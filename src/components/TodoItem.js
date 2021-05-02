@@ -10,10 +10,9 @@ export class TodoItem extends Component {
          borderBottom: '1px #ccc solid ',
          borderLeft: '1px #ccc solid ',
          borderRight: '1px #ccc solid ',      
-         textDecoration: this.props.todo.completed ? 
-         'line-through' : 'none',
-         width: '90%',
-         margin: '0px 5%' 
+         textDecoration: this.props.todo.completed ? 'line-through' : 'none',
+         width: '50%',
+         margin: '0px auto' 
        }
     }
 
@@ -25,7 +24,7 @@ export class TodoItem extends Component {
                     <input type="checkbox" onChange={this.props.markComplete.bind
                     (this, id)}/> {' '}
                     { title } 
-                    <button onClick={this.props.delTodo.bind(this, id)} style={btnStyle}> x </button>
+                    <button onClick={this.props.delTodo.bind(this, id)} style={btnStyle} className="deletebutton"> Delete </button>
                 </p>
             </div>
         )
@@ -33,15 +32,14 @@ export class TodoItem extends Component {
 }
 
 const btnStyle = {
-    background: '#ff0000',
-    color: '#fff',
+    background: 'green',
+    color: 'white',
     border: 'none',
-    padding: '5px 9px',
-    borderRadius: '50%',
+    padding: '2px 10px',
+    borderRadius: '10%',
     cursor: 'pointer',
     float: 'right',
-    boxShadow: '2px 2px #333'
-       
+    boxShadow: '2px 2px #333',
 } 
 
 

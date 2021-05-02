@@ -1,33 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;900&display=swap');
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+html {
+  background-image:url('./img/pexels-pixabay-459458.jpg');
+  background-size: cover;  
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Iceland';
   line-height: 1.4;
 }
 
 a {
-  color: #333;
   text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  color: white;
+}
+
+h1 {
+  font-size: 4rem;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+}
+
+input {
+  font-family: 'Poppins', sans-serif;
+}
+
+button {
+  background-color: #c2a98a;
+  font-family: 'Poppins', sans-serif;
+}
+
+button:hover {
+  background-color: #080B0A;
+  color: white;
 }
 
 .container {
   padding: 0 1rem; 
 }
 
+
+
 .btn {
+  font-family: 'Poppins', sans-serif;
   display: inline-block;
-  border: none;
-  background: #555;
-  color: #fff;
+  border: 1px solid black;
+  background: #c2a98a;
+  color: black;
   padding: 7px 20px;
   cursor: pointer;
 }
 
 .btn:hover {
-  background: #666;
+  background: #080B0A;
+  color: white;
 }
 
+.deletebutton:hover {
+  background-color: red!important;
+}
+
+footer {
+  background: rgba(0,0,0,0.7);
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid black;
+}
+
+footer span {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  margin-right: 10px;
+}
+
+svg {
+  height: 30px;
+  margin-top: 10px;
+}
