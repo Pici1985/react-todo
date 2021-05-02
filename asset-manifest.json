@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/react-todo/static/css/main.9b204fa5.chunk.css",
-    "main.js": "/react-todo/static/js/main.a78b4234.chunk.js",
-    "main.js.map": "/react-todo/static/js/main.a78b4234.chunk.js.map",
-    "runtime-main.js": "/react-todo/static/js/runtime-main.89ae8f88.js",
-    "runtime-main.js.map": "/react-todo/static/js/runtime-main.89ae8f88.js.map",
-    "static/js/2.ba3d5dc1.chunk.js": "/react-todo/static/js/2.ba3d5dc1.chunk.js",
-    "static/js/2.ba3d5dc1.chunk.js.map": "/react-todo/static/js/2.ba3d5dc1.chunk.js.map",
-    "index.html": "/react-todo/index.html",
-    "precache-manifest.a493ef3ce9a6707edbcb23fe430913a0.js": "/react-todo/precache-manifest.a493ef3ce9a6707edbcb23fe430913a0.js",
-    "service-worker.js": "/react-todo/service-worker.js",
-    "static/css/main.9b204fa5.chunk.css.map": "/react-todo/static/css/main.9b204fa5.chunk.css.map",
-    "static/js/2.ba3d5dc1.chunk.js.LICENSE.txt": "/react-todo/static/js/2.ba3d5dc1.chunk.js.LICENSE.txt"
+    "main.css": "/React-New-Todo/static/css/main.d942b4ca.chunk.css",
+    "main.js": "/React-New-Todo/static/js/main.0095f054.chunk.js",
+    "main.js.map": "/React-New-Todo/static/js/main.0095f054.chunk.js.map",
+    "runtime-main.js": "/React-New-Todo/static/js/runtime-main.aad22092.js",
+    "runtime-main.js.map": "/React-New-Todo/static/js/runtime-main.aad22092.js.map",
+    "static/js/2.91e3100c.chunk.js": "/React-New-Todo/static/js/2.91e3100c.chunk.js",
+    "static/js/2.91e3100c.chunk.js.map": "/React-New-Todo/static/js/2.91e3100c.chunk.js.map",
+    "index.html": "/React-New-Todo/index.html",
+    "precache-manifest.b90babfdf9ca22e265cf15a056323c54.js": "/React-New-Todo/precache-manifest.b90babfdf9ca22e265cf15a056323c54.js",
+    "service-worker.js": "/React-New-Todo/service-worker.js",
+    "static/css/main.d942b4ca.chunk.css.map": "/React-New-Todo/static/css/main.d942b4ca.chunk.css.map",
+    "static/js/2.91e3100c.chunk.js.LICENSE.txt": "/React-New-Todo/static/js/2.91e3100c.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/React-New-Todo/static/media/pexels-pixabay-459458.f484cd72.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.89ae8f88.js",
-    "static/js/2.ba3d5dc1.chunk.js",
-    "static/css/main.9b204fa5.chunk.css",
-    "static/js/main.a78b4234.chunk.js"
+    "static/js/runtime-main.aad22092.js",
+    "static/js/2.91e3100c.chunk.js",
+    "static/css/main.d942b4ca.chunk.css",
+    "static/js/main.0095f054.chunk.js"
   ]
 }
